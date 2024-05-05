@@ -10,6 +10,5 @@ for i in range(0,6):
     else:
         print("You guessed the correct number!")
         break
-        
 print("The game is over!")
 
