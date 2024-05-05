@@ -1,4 +1,4 @@
-print("Shapes:\n1. Circle\n2. Rectangle\n3. Square\n4. Triangle")
+print("Shapes:\n1. Circle\n2. Rectangle\n3. Square")
 x=int(input("Select a number from the given list: "))
 if(x==1):
     r=int(input("Enter radius of the circle: "))
@@ -20,14 +20,5 @@ elif(x==3):
     print("The area of Square is", area)
     print("The perimeter of the Square is", peri)
 else:
-    print("Enter the sides of triangle:")
-    a=int(input("Enter first side: "))
-    b=int(input("Enter second side: "))
-    c=int(input("Enter third side: "))
-    base=int(input("Enter base of the Triangle: "))
-    h=int(input("Enter height of the triangle: "))         
-    area= 0.5*base*h
-    peri= a+b+c
-    print("The area of Triangle is", area)
-    print("The perimeter of the Triangle is", peri)
+    print("wrong choice")
 
